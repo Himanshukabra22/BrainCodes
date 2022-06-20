@@ -3,11 +3,13 @@ body
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
+    background-color: rgb(191, 192, 192);
+
 }
 header
 {
-    height: 70px;
-    background-color: black;
+    height: 5rem;
+    background-color: rgb(45, 49, 66);
 }
 #headlogo
 {
