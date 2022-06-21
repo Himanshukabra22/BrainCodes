@@ -1,34 +1,35 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
     /* background-color: rgb(191, 192, 192); */
-    background-color: rgb(10,10,10);
-
+    background-color: rgb(10, 10, 10);
 }
-header
-{
+
+header {
     height: 6rem;
-    background-color: rgb(10,10,10);
+    background-color: rgb(10, 10, 10);
     border-bottom: 2px solid white;
     /* border-radius: 10px; */
 }
-.logo
-{
+
+.logo {
     display: inline-block;
     height: 6rem;
     width: auto;
 }
-#headlogo
-{
+
+#headlogo {
     margin-left: 10px;
-    margin-top: 7px;
+    padding-top: 7px;
     width: auto;
     height: 5rem;
 }
-.notifcard
-{
+
+.notifcard {
+    align-items: center;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
     height: 30rem;
     width: 70rem;
     background-color: rgb(181, 215, 245);
@@ -36,23 +37,28 @@ header
     /* float: right; */
     border-radius: 10px;
 }
-.carddiv
-{
+h1{
+    width: fit-content; /*Important to make alignment center. */
+    margin: auto;
+    padding: 0px;
+}
+.carddiv {
     /* display: flexbox; */
     margin-top: 50px;
 }
-.navbar
-{
+
+.navbar {
     color: white;
     /* display: inline-flex; */
+    width: fit-content;
+    margin: 0px 3rem 0px 0px;
     float: right;
     height: 6rem;
-    width: 30rem;
-
 }
-.navbarul
-{
+
+.navbarul {
     list-style-type: none;
+    width: fit-content;
     /* display: block; */
     height: 6rem;
     margin: 0px 0px;
@@ -60,19 +66,35 @@ header
     align-items: center;
     vertical-align: middle;
 }
-.navbarli
-{
+
+.navbarli {
     height: 6rem;
     display: inline-block;
-    width: 5rem;
+    width: fit-content;
 }
-#navlink
-{
+
+#navlink {
     display: block;
     width: fit-content;
-    float: center;
     margin: auto;
-    margin-top: 38px;
+    margin-top: 27px;
     padding: 10px;
-    border: 1px solid white;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#navlink:visited{
+    color: white;
+}
+#navlink:hover{
+    background-color: rgb(181,215,245);
+    border: 0px solid white;
+    color: black;
+    padding: 15px 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    transition: 0.15s;
+    transition-delay: 0s;
 }
