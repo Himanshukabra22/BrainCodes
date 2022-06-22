@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
+    <link rel="icon" href="content\icon.png">
     <title>UpEvent</title>
 </head>
 
-<body>
+<body onload="myfunction()">
     <!-- holla judges, welcome to our web structure! -->
     <div class="main">
         <div>
@@ -21,9 +22,10 @@
                         <button class="navbutton">
                             <img src="content\Home-free-icon-font.png" alt="home" id="Home">
                         </button>
+                        <a href="Form.html">
                         <button class="navbutton">
-                            <a href="Form.html"><img src="content\add-free-icon-font.png" alt="Add" id="Add"></a>
-                        </button>
+                            <img src="content\add-free-icon-font.png" alt="Add" id="Add">
+                        </button></a>
                         <button class="navbutton">
                             <img src="content\Users-free-icon-font.png" alt="Team" id="Team">
                         </button>
@@ -33,7 +35,7 @@
         </div>
         <div class="carddiv">
             <div class="arrowleft">
-                <button class="slideshowbtn" onclick="nextevent()">
+                <button class="slideshowbtn" onclick="lastevent()">
                     <img src="content\right-arrow.png" alt="home" id="leftslide">
                 </button>
             </div>
@@ -42,17 +44,15 @@
                 <div class="notifposter" id="notiposterid">
                     <button id="abouteventicon" onclick="slide()"><img src="content\arrow-small-leftw.png" alt=""
                             id="slideiconimg1"></button>
-                    <span id="eventname1">Event Name Goes Here</span>
+                    <span id="eventname1">Event1 Name Goes Here</span>
                     <!-- <div class="notitransit"></div> -->
-                   
-                 
                 </div>
                 <div id="eventinfo">
-                    
+
                 </div>
             </div>
             <div class="arrowright">
-                <button class="slideshowbtn" onclick="lastevent()">
+                <button class="slideshowbtn" onclick="nextevent()">
                     <img src="content\right-arrow.png" alt="home" id="rightslide">
                 </button>
             </div>
