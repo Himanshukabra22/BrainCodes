@@ -1,23 +1,24 @@
+var eventname = [];
+eventname[0] = "eventname1";
+eventname[1] = "eventname1";
+let eventlength = eventname.length;
 var a = 0;
-function slide()
-{
-    if(a%2 == 0)
-    {
-        document.getElementById("notiposterid").style.transition="0.2s"
-        document.getElementById("abouteventicon").style.transition="0.2s"
-        document.getElementById("notiposterid").style.width="35rem"
-        // document.getElementById("notiposterid").style.height="15rem"
-        document.getElementById("abouteventicon").style.transform="rotate(180deg)"
+function myGreeting() {
+    document.getElementById("eventinfo").innerHTML = "<div id=\"eventinfocard\">jai ho!!</div>"
+}
+function slide() {
+    if (a % 2 == 0) {
+        document.getElementById("notiposterid").style.cssText = "transition: 0.2s; width: 35rem; ";
+        document.getElementById("abouteventicon").style.cssText = "transition: 0.2s; transform: rotate(180deg)"
+        setTimeout(myGreeting, 300);
+        document.getElementById("eventinfo").style.cssText = "transition: 0.2s; transition-delay: 0s; width:35rem; height:34rem; display: inline-block; float: right; background-color: rgb(255,255,255,);"
         a++
     }
-    else
-    {
-        document.getElementById("notiposterid").style.transition="0.2s"
-        document.getElementById("abouteventicon").style.transition="0.2s"
-        document.getElementById("notiposterid").style.width="70rem"
-        // document.getElementById("notiposterid").style.height="30rem"
-        document.getElementById("abouteventicon").style.transform="rotate(0deg)"
+    else {
+        document.getElementById("notiposterid").style.cssText = "transition: 0.2s; width: 70rem;"
+        document.getElementById("abouteventicon").style.cssText = "transition: 0.2s; transform: rotate(0deg)"
+        document.getElementById("eventinfo").style.cssText = "transition: 0.2s; transition-delay: 0s; width:0rem; height:34rem; display: inline-block; float: right; background-color: transparent;"
+        document.getElementById("eventinfo").innerHTML = ""
         a--;
     }
 }
-var eventname = ["eventname1"];
