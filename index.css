@@ -163,6 +163,18 @@ h1 {
     width: 40px;
     height: auto;
 }
+#Form {
+    display: block;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 10px 0px;
+    align-items: center;
+    text-align: center;
+    /* display: block; */
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    /* margin-top: -20px; */
+}
 
 #eventname1 {
     display: block;
@@ -176,6 +188,7 @@ h1 {
     font-weight: 800;
     /* margin-top: -20px; */
 }
+
 .eventinfocard{
     display: none;
 }
