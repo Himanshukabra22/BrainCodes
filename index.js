@@ -20,3 +20,4 @@ function slide()
         a--;
     }
 }
+var eventname = ["eventname1"];
