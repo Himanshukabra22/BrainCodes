@@ -126,7 +126,7 @@ h1 {
 
 .navbutton {
     margin: 0px 10px;
-    padding: 16px 16px;
+    padding: 16px 16px 13px 16px;
     background-color: transparent;
     border: none;
 }
@@ -136,7 +136,9 @@ h1 {
     border-radius: 100%;
     transition: 0.2s;
 }
-
+.navbutton#navbtns{
+margin: 0px 30px;
+}
 #Home,
 #Add,
 #Team {
@@ -154,7 +156,7 @@ h1 {
     height: 34rem;
     display: inline-block;
     background-color: antiquewhite;
-    background-image: url("https://bit.ly/3OCgqLw");
+    background-image: url("content\\event1.jpg");
     background-size: cover;
     background-position: center;
     color: black;
@@ -195,7 +197,8 @@ h1 {
 
 #eventname1 {
     display: block;
-    background-color: rgb(0, 0, 0, 0.6);
+    /* background-color: rgb(0, 0, 0, 0.6); */
+    background-color: transparent;
     padding: 10px 0px;
     align-items: center;
     text-align: center;
@@ -203,7 +206,7 @@ h1 {
     color: white;
     font-size: 40px;
     font-weight: 800;
-    /* margin-top: -20px; */
+    margin-top: 1rem;
 }
 
 #eventinfocard {
@@ -224,4 +227,67 @@ h1 {
     width: 100%;
     top: 100vh;
     display: block;
+}
+
+
+.formdiv{
+    display: block;
+    width: 70rem;
+    margin: auto;
+    margin-top: 50px;
+    height: 35rem;
+    background-color: rgb(0, 0, 0,0.5);
+    border-radius: 5px;
+}
+.formhead{
+    display: block;
+    width: 100%;
+    height: 7rem;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 0px;
+    color: white;
+    font-size: 3rem;
+    align-items: center;
+}
+#formheadtext{
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+    padding: 1.5rem;
+    display: block;
+}
+.detail{
+    display: block;
+    width: 100%;
+    height: 3rem;
+    background-color: green;
+    border: white solid 2px;
+}
+#eventlogo{
+    height: 15rem;
+    width: auto;
+}
+.eventbtns{
+    height: 4rem;
+    margin-top: 4rem;
+    background-color: transparent;
+    width: 100%;
+}
+.eventbtns > div{
+    width: 25rem;
+    height: 100%;
+    margin: auto;
+    background-color: transparent;
+}
+#share,
+#more,
+#takepart {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 3px;
+}
+.eventnavbtns{
+    margin: 0px 30px;
 }
