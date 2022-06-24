@@ -1,0 +1,41 @@
+#click_here {
+    width: fit-content;
+    margin: auto;
+    height: 5rem;
+    /* margin-top: 50vh; */
+    
+}
+#click_here>span {
+    padding: 1rem;
+    /* background-color:red; */
+    font-size: 2rem;
+    border-radius: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#click_here>span:hover {
+    background-color:red;
+    /* padding-top: 0rem; */
+    margin-top: 1rem;
+
+    
+    
+}
+
+#FP_Logo {
+    width: fit-content;
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    /* margin-top: 50vh; */
+    
+}
+#FP_Logo>img {
+    width: 40rem;
+    margin: auto;
+
+    /* margin-top: 50vh; */
+    
+}
