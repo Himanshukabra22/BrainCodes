@@ -1,46 +1,35 @@
 var eventname = ["eventname1","eventname2","eventname3","eventname4","eventname5","eventname6"];
-// var eventposter = ["", "https://bit.ly/3NjSX0B", "https://bit.ly/39Jy9lA", "https://bit.ly/3OiQQvm", "#", "#"];
 var i = 0;
 let eventlength = eventname.length;
 function myfunction() {
     if (i == 0) {
         document.getElementById("leftslide").style.opacity = "0.3";
     }
-    if (i == eventlength - 1) {
+    else if (i == eventlength - 1) {
         document.getElementById("rightslide").style.opacity = "0.3";
+    }
+    else {
+        document.getElementById("leftslide").style.opacity = "1";
+        document.getElementById("rightslide").style.opacity = "1";
     }
 }
 function evinfo()
 {
-    document.getElementById("eventname1").innerHTML = '<img src="content\\logo'+(i+1)+'.jpg" alt="nologo" id="eventlogo">                        <div class="eventbtns"><div>    <button class="navbutton eventnavbtns" title="share"><img src="content\\share.png" id="share"></button>    <button class="navbutton eventnavbtns" title="Participate"><img src="content\\participate.png" id="takepart"></button>    <button class="navbutton eventnavbtns" title="More" onclick="slide()"><img src="content\\more.png" id="more"></button></div></div>';
+    document.getElementById("notiposterid").style.backgroundImage = 'url("./content/event'+(i+1)+'.jpg")'
+    document.getElementById("eventname1").innerHTML = '<img src="content\\logo'+(i+1)+'.jpg" alt="nologo" id="eventlogo">';
 }
 function nextevent() {
     if (i < eventlength - 1) {
         i++
-        document.getElementById("notiposterid").style.backgroundImage = 'url("./content/event'+(i+1)+'.jpg")'
         evinfo();
-        if (i == eventlength - 1) {
-            document.getElementById("rightslide").style.opacity = "0.3";
-        }
-        else {
-            document.getElementById("leftslide").style.opacity = "1";
-            document.getElementById("rightslide").style.opacity = "1";
-        }
+        myfunction();
     }
 }
 function lastevent() {
     if (i > 0) {
         i--;
         evinfo();
-        document.getElementById("notiposterid").style.backgroundImage = 'url("./content/event'+(i+1)+'.jpg")'
-        // console.log('url("' + eventposter[i] + '")')
-        if (i == 0) {
-            document.getElementById("leftslide").style.opacity = "0.3";
-        }
-        else {
-            document.getElementById("leftslide").style.opacity = "1";
-            document.getElementById("rightslide").style.opacity = "1";
-        }
+        myfunction();
     }
 }
 var a = 0;

@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
-    background-image: url("https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+    background-image: url("content\\background.png");
     background-position: center;
     /* background: fixed; */
     background-repeat: no-repeat;
@@ -197,6 +198,7 @@ margin: 0px 30px;
 
 #eventname1 {
     display: block;
+    height: 17rem;
     /* background-color: rgb(0, 0, 0, 0.6); */
     background-color: transparent;
     padding: 10px 0px;
@@ -246,6 +248,7 @@ margin: 0px 30px;
     background-color: transparent;
     margin: auto;
     margin-top: 0px;
+    margin-bottom: 2rem;
     color: white;
     font-size: 3rem;
     align-items: center;
@@ -260,22 +263,24 @@ margin: 0px 30px;
 .detail{
     display: block;
     width: 100%;
-    height: 3rem;
-    background-color: green;
-    border: white solid 2px;
+    height: 4rem;
+    background-color: transparent;
+    /* border: white solid 2px; */
+    border: none;
 }
 #eventlogo{
-    height: 15rem;
-    width: auto;
+    max-width: 25rem;
+    max-height: 17rem;
 }
 .eventbtns{
     height: 4rem;
-    margin-top: 4rem;
+    /* bottom: 0; */
+    /* position: fixed; */
     background-color: transparent;
     width: 100%;
 }
 .eventbtns > div{
-    width: 25rem;
+    width: fit-content;
     height: 100%;
     margin: auto;
     background-color: transparent;
@@ -289,5 +294,15 @@ margin: 0px 30px;
     margin-bottom: 3px;
 }
 .eventnavbtns{
+    margin: 0px 30px;
+}
+.detail>div{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+.detail>div>div{
+    width: fit-content;
     margin: 0px 30px;
 }
