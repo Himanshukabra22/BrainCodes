@@ -36,7 +36,7 @@ header {
 }
 
 .carddiv {
-    margin: 50px auto 10rem auto;
+    margin: 3.5rem auto 10rem auto;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -47,10 +47,11 @@ header {
     color: rgb(255, 255, 255);
     height: 34rem;
     width: 70rem;
-    background-color: rgb(10,10,10);
+    background-color: rgb(10, 10, 10);
     margin: auto;
 }
-.notifcard:hover{
+
+.notifcard:hover {
     box-shadow: 12px 12px 10px 1px rgba(0, 0, 0, 0.5);
     margin-top: -10px;
     transition: 0.2s;
@@ -137,9 +138,11 @@ h1 {
     border-radius: 100%;
     transition: 0.2s;
 }
-.navbutton#navbtns{
-margin: 0px 30px;
+
+.navbutton#navbtns {
+    margin: 0px 30px;
 }
+
 #Home,
 #Add,
 #Team {
@@ -214,7 +217,7 @@ margin: 0px 30px;
 #eventinfocard {
     display: block;
     width: 28rem;
-    background-color: rgb(255,255,255, 0.5);
+    background-color: rgb(255, 255, 255, 0.5);
     border-radius: 1rem;
     height: 30rem;
     margin: auto;
@@ -231,17 +234,18 @@ margin: 0px 30px;
     display: block;
 }
 
-
-.formdiv{
+.formdiv {
     display: block;
     width: 70rem;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 3.5rem;
+    margin-bottom: 15rem;
     height: 35rem;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
     border-radius: 5px;
 }
-.formhead{
+
+.formhead {
     display: block;
     width: 100%;
     height: 7rem;
@@ -253,14 +257,16 @@ margin: 0px 30px;
     font-size: 3rem;
     align-items: center;
 }
-#formheadtext{
+
+#formheadtext {
     font-weight: 600;
     text-align: center;
     margin: 0px;
     padding: 1.5rem;
     display: block;
 }
-.detail{
+
+.detail {
     display: block;
     width: 100%;
     height: 4rem;
@@ -268,23 +274,27 @@ margin: 0px 30px;
     /* border: white solid 2px; */
     border: none;
 }
-#eventlogo{
+
+#eventlogo {
     max-width: 25rem;
     max-height: 17rem;
 }
-.eventbtns{
+
+.eventbtns {
     height: 4rem;
     /* bottom: 0; */
     /* position: fixed; */
     background-color: transparent;
     width: 100%;
 }
-.eventbtns > div{
+
+.eventbtns>div {
     width: fit-content;
     height: 100%;
     margin: auto;
     background-color: transparent;
 }
+
 #share,
 #more,
 #takepart {
@@ -293,16 +303,21 @@ margin: 0px 30px;
     height: 25px;
     margin-bottom: 3px;
 }
-.eventnavbtns{
+
+.eventnavbtns {
     margin: 0px 30px;
+    background-color: black;
+    border-radius: 100px;
 }
-.detail>div{
+
+.detail>div {
     display: flex;
     width: fit-content;
     margin: auto;
     margin-top: 10px;
 }
-.detail>div>div{
+
+.detail>div>div {
     width: fit-content;
     margin: 0px 30px;
 }
