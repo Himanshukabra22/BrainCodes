@@ -62,8 +62,8 @@
     height: auto;
     padding: 0.2vw;
 }
-.btn>img{
-    width: 2vw;
+.btn>a>img{
+    width: 1.5vw;
 }
 #himanshu{
     background-image: url("content\\himanshu.jpg");
