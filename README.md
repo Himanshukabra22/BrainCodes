@@ -18,8 +18,6 @@ Repository : https://github.com/Himanshukabra22/BrainCodes
 By clicking on logo, we will be directed to our Home Page.
 ## Home
 Clicking on this button we will be directed to our first (Home) Page.
-## Home
-Clicking on this button we will be directed to our first (Home) Page.
 ## Add Event
 This button is will direct the user to a form for adding event over this Web Page.
 After submitting the form, event notification will be added to Home Page.
