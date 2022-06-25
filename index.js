@@ -1,4 +1,4 @@
-var eventname = ["Devheat beta", "AlgoHours 3.0", "LCS Orientation", "Stranger Codes 2.0", "eventname5", "eventname6"];
+var eventname = ["Devheat beta", "AlgoHours 3.0", "LCS Orientation", "Stranger Codes 2.0", "Gaming Night", "eventname6"];
 var organisername = ["GDSC IIIT Surat", "organiser2", "organiser3", "organiser4", "organiser5", "organiser6"];
 let Lorem = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni debitis officiisoptio hic atque molestias quasi fuga, ipsa reiciendis enim, temporibus quibusdam quaeratfacilis repellendus? Eos sequi unde dicta vero sunt voluptate in tempore rem illopossimus iure assumenda ipsa adipisci suscipit natus voluptas inventore temporibus,tenetur deserunt. Adipisci tempore eum in aperiam porro, sapiente vero id nulla. Inquidem est recusandae voluptate esse dolorum ipsa nisi sed officiis!'
 var vanuename = ["Home", "vanue2", "vanue3", "vanue4", "vanue5", "vanue6"];

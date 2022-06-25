@@ -262,7 +262,7 @@ h1 {
     height: 16rem;
     background-color: black;
     position: static;
-    width: 100%;
+    width: 100vw;
     display: flex;
 }
 
