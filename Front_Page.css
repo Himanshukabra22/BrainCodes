@@ -9,7 +9,7 @@
 
 #click_here>a>span {
     color: rgb(255, 255, 255);
-    padding: 1rem;
+    padding: 1rem 2rem;
     /* background-color:red; */
     font-size: 2rem;
     margin-top: 2rem;
@@ -20,25 +20,24 @@
 }
 
 #click_here>a>span:hover {
-    background-color: red;
+    background-color: rgb(119, 187, 255,0.8);
     transition: 0.2s;
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
+    color: black;
 }
-#click_here>a{
+
+#click_here>a {
     display: flex;
     text-decoration: none;
 }
+
 #FP_Logo {
     width: fit-content;
     margin: auto;
     margin-top: 20vh;
     margin-bottom: 3vh;
 }
-
 #FP_Logo>img {
     width: 40rem;
     margin: auto;
-
-    /* margin-top: 50vh; */
-
 }

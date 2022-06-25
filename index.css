@@ -219,7 +219,8 @@ h1 {
     margin: auto;
     margin-top: 2rem;
 }
-#evnamediv{
+
+#evnamediv {
     display: flex;
     width: fit-content;
     height: 6rem;
@@ -229,10 +230,12 @@ h1 {
     font-size: 3rem;
     font-weight: 700;
 }
-#evnamediv>span{
+
+#evnamediv>span {
     padding: 1rem;
 }
-#descdiv{
+
+#descdiv {
     display: flex;
     height: 18rem;
     width: fit-content;
@@ -244,21 +247,53 @@ h1 {
     align-items: center;
     text-align: center;
 }
-#descdiv>span{
+
+#descdiv>span {
     padding: 2rem;
 }
-#desdiv{
+
+#desdiv {
     height: 4rem;
     padding-top: 1.5rem;
 }
+
 .base {
-    height: 15rem;
+    height: 16rem;
     background-color: black;
     position: static;
-    bottom: 0;
     width: 100%;
-    top: 100vh;
+    display: flex;
+}
+
+.base>div {
+    width: fit-content;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.base>div>a>img {
     display: block;
+    height: 5rem;
+    width: auto;
+    margin: auto;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.base>div>a>img:hover {
+    margin-top: 0.2rem;
+    padding-bottom: 0.3rem;
+}
+
+.base>div>span {
+    display: block;
+    width: auto;
+    color: rgb(200, 200, 200);
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-weight: 600;
+    margin: 0.7rem 0 0 0;
+    align-items: center;
 }
 
 .formdiv {
@@ -310,8 +345,6 @@ h1 {
 
 .eventbtns {
     height: 4rem;
-    /* bottom: 0; */
-    /* position: fixed; */
     background-color: transparent;
     width: 100%;
 }
@@ -323,6 +356,13 @@ h1 {
     background-color: transparent;
 }
 
+#basebtns {
+    margin: 0.8rem;
+}
+
+/* #linkedin:hover,#instagram:hover,#iiitsurat:hover{
+    opacity: 0.6;
+} */
 #share,
 #more,
 #takepart {
