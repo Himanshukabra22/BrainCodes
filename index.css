@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -228,12 +231,16 @@ h1 {
     color: black;
     background-color: transparent;
     margin: auto;
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: 'Titan One', cursive;
+
+    
 }
 
 #evnamediv>span {
     padding: 1rem;
+    padding-top: 2rem;
 }
 
 #descdiv {

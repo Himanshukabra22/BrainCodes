@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&family=Varela+Round&display=swap');
+
+#form input {border: 1px solid #FFFFFF;font-size: 16px;padding: 5px;width: 200px;}
 .formdiv {
     display: block;
     width: 70rem;
@@ -28,4 +31,15 @@
     margin: 0px;
     padding: 1.5rem;
     display: block;
+    font-family: 'Titan One', cursive;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3rem;
 }
+#formid {
+    font-family: 'Titan One', cursive;
+    
+    font-size: 1rem;
+    
+}
+
+
