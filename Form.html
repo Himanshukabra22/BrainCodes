@@ -13,7 +13,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
     <div class="main">
         <div>
@@ -39,7 +38,6 @@
             </header>
         </div>
         <div class="formdiv">
-            
                 <div class="formhead">
                     <p id="formheadtext">Add Event</p>
                 </div>
@@ -48,7 +46,7 @@
                         <div>
                             <div id="evnameid2">
                                 <span>Event name:&nbsp;</span>
-                                <input type="text" name="EventName" class="textbox1" >
+                                <input type="text" class="textbox1" id="EventName">
                             </div>
                             <div id="organiserid2">
                                 <span>Organiser:&nbsp;</span>
@@ -97,7 +95,7 @@
                     <div class="detail">
                         <div>
                         <div><input type="reset" class="frmbtns"></div>
-                        <div><input type="submit" class="frmbtns"></div>
+                        <div><input type="submit" class="frmbtns" onclick="addevent()"></div>
                     </div>
                     </div>
                 </form>
@@ -119,7 +117,7 @@
     <footer class="base">
         <div>
             <span>Created by team BRAINCODES for the purpose of</span>
-            <a href="devheat.live">
+            <a href="https://devheat.live/" target="_blank">
                 <img src="https://devheat.live/assets/header/devheat-logo.png" title="devheat.live" alt="devheatlogo">
             </a>
             <div class="eventbtns" id="basebtns">
