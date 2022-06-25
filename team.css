@@ -1,0 +1,14 @@
+.father{
+    display: flex;
+    height: 60vh;
+    width: 81vw;
+    background-color: antiquewhite;
+    margin: 12vh auto 10rem auto;
+}
+.childhead{
+    display: flex;
+    height: 60vh;
+    width: 24vw;
+    background-color: aquamarine;
+    margin: auto;
+}
