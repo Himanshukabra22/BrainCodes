@@ -15,27 +15,23 @@
 
 <body onload="myfunction()">
     <!-- holla judges, welcome to our web structure! -->
-    <div class="main">
+    <div class="main" id="main">
         <div>
             <header>
                 <div class="logo"><a href="index.htm"><img src="content\logopng.png" alt="logo" id="headlogo"
                             title="UpEvent"></a></div>
                 <div class="navbar">
                     <ul class="navbarul">
-                        <a href="index.htm">
-                            <button class="navbutton">
+                            <button class="navbutton" onclick="Home()">
                                 <img src="content\Home-free-icon-font.png" alt="home" id="Home">
                             </button>
-                        </a>
-                        <a href="Form.html">
-                            <button class="navbutton" title="Add Event">
-                                <img src="content\add-free-icon-font.png" alt="Add" id="Add">
-                            </button>
-                        </a>
+                        <button class="navbutton" title="Add Event" onclick="formhtm()">
+                            <img src="content\add-free-icon-font.png" alt="Add" id="Add">
+                        </button>
                         <a href="team.htm">
-                        <button class="navbutton" title="About Team">
-                            <img src="content\Users-free-icon-font.png" alt="Team" id="Team">
-                        </button></a>
+                            <button class="navbutton" title="About Team">
+                                <img src="content\Users-free-icon-font.png" alt="Team" id="Team">
+                            </button></a>
                     </ul>
                 </div>
             </header>
@@ -102,7 +98,7 @@
     <footer class="base">
         <div>
             <span>Created by team BRAINCODES for the purpose of</span>
-            <a href="https://devheat.live/" target="_blank">
+            <a href="devheat.live">
                 <img src="https://devheat.live/assets/header/devheat-logo.png" title="devheat.live" alt="devheatlogo">
             </a>
             <div class="eventbtns" id="basebtns">

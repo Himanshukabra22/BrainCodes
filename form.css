@@ -39,6 +39,12 @@ textarea{
 #text{
     width: 35rem;
 }
+#submitbtn{
+    color: black;
+}
+#submitbtn:hover{
+    color: white;
+}
 .frmbtns{
     width: 5rem;
     padding: 0.5rem;
