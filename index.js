@@ -50,7 +50,7 @@ function lastevent() {
     }
 }
 function cardinfofun(p) {
-    let x = '<div id="eventinfocard"><div id="evnamediv"><span>' + eventname[p] + '</span></div><div id="descdiv"><span>' + eventdes[p] + '</span></div><div class="eventbtns" id="desdiv"><div><button class="navbutton eventnavbtns" title="share"><img src="content\\share.png" id="share"></button><button class="navbutton eventnavbtns" title="Participate"><img src="content\\participate.png" id="takepart"></button><button class="navbutton eventnavbtns" title="More" onclick="slide()"><img src="content\\more.png" id="more"></button> </div></div></div></div>'
+    let x = '<div id="eventinfocard"><div id="evnamediv"><span>' + eventname[p] + '</span></div><div id="descdiv"><span>' + eventdes[p] + '</span></div><div class="eventbtns" id="desdiv"><div><button class="navbutton eventnavbtns" title="share"><img src="content\\share.png" id="share"></button><a href ="https://docs.google.com/forms/d/e/1FAIpQLSfWj3TxYfQVZev6MjmUhCSnAtYY6UxVDkGGXOL7hhD17jBHog/viewform?usp=sf_link" target ="_blank"><button class="navbutton eventnavbtns" title="Participate"><img src="content\\participate.png" id="takepart"><a></button><button class="navbutton eventnavbtns" title="More" onclick="slide()"><img src="content\\more.png" id="more"></button> </div></div></div></div>'
     return x
 }
 function info() {
